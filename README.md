@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
         <title>Spaceship game</title>
-        <Link rel="stylesheet" href="css/style.css"
+
 </head>
 <body>
 <div class="container"> 
