@@ -228,16 +228,16 @@ function initCanvas(){
     });
 
     left_btn.addEventListener('mousedown', function(event){
-        Launcher.direccion.push = 'left';
+        Launcher.direccion = 'left';
     });
     left_btn.addEventListener('mouseup', function(event){
-        Launcher.direccion.push = '';
+        Launcher.direccion = '';
     });
     right_btn.addEventListener('mousedown', function(event){
-        Launcher.direccion.push = 'right';
+        Launcher.direccion = 'right';
     });
     right_btn.addEventListener('mouseup', function(event){
-        Launcher.direccion.push = '';
+        Launcher.direccion = '';
     });
     fire_btn.addEventListener('mousedown', function(event){
         Launcher.misiles.push({
